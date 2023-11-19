@@ -1,0 +1,25 @@
+/*Universal Styles*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container {
+    display: flex;
+    padding: 16px 20px;
+}
+
+.gallery-item {
+    margin: 0 8px;
+    border: 1px solid black;
+
+}
+.gallery-item:hover {
+    border: 1px solid silver;
+}
+
+.description {
+    text-align: center;
+    padding: 8px;
+}
